@@ -1,0 +1,16 @@
+.badge {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.list-group {
+  padding-top: 25px;
+  padding-right: 8px;
+}
+
+@media only screen and (max-width: 1003px) {
+  .badge {
+    padding: 5px;
+    margin-right: 5px;
+  }
+}
