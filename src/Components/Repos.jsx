@@ -19,7 +19,7 @@ const Repos = ({ repo }) => {
                   <b>Descriçao:</b> {repo.description}
                 </li>
                 <li>
-                  <b>Html URL:</b> {repo.html_url}
+                  <b>Html URL:</b> <a href={repo.html_url} target="_blank">{repo.html_url}</a>
                 </li>
                 <li>
                   <b>Forks:</b> {repo.forks_count}

@@ -18,7 +18,7 @@ const Starred = ({ starred }) => {
                   <b>Descriçao:</b> {starred.description}
                 </li>
                 <li>
-                  <b>Html URL:</b> {starred.html_url}
+                  <b>Html URL:</b><a href={starred.html_url} target="_blank"> {starred.html_url}</a>
                 </li>
                 <li>
                   <b>Forks:</b> {starred.forks_count}
